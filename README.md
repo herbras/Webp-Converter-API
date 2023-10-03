@@ -28,10 +28,6 @@ API ini menyediakan dua endpoint utama:
 ### SSE Endpoint
 - Sambungkan ke `/sse` untuk mendapatkan info setiap 5 detik.
 
-## Lisensi
-
-MIT License
-```
 
 ## Dokumentasi API
 
