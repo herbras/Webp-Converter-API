@@ -1,0 +1,9 @@
+{
+    "imports": {
+        "oak": "https://deno.land/x/oak/mod.ts",
+        "cors": "https://deno.land/x/cors/mod.ts",
+        "webp": "https://deno.land/x/deno_webp_converter/mod.ts",
+        "path": "https://deno.land/std@0.107.0/path/mod.ts"
+    }
+}
+  

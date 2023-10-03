@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "lib": [
+        "deno.ns",
+        "deno.window"
+      ],
+      "strict": true
+    },
+    "permissions": [
+      "net",
+      "read",
+      "write"
+    ],
+    "importMap": "./import_map.json"
+  }
+  

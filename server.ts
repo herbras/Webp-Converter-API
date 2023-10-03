@@ -1,10 +1,12 @@
-import { Application, Router, Context } from "https://deno.land/x/oak/mod.ts";
-import { oakCors } from "https://deno.land/x/cors/mod.ts";
-import { convert } from "https://deno.land/x/deno_webp_converter/mod.ts";
-import * as path from "https://deno.land/std@0.107.0/path/mod.ts";
+import { Application, Router, Context } from "oak";
+import { oakCors } from "cors";
+import { convert } from "webp";
+import * as path from "path";
 
 const ALLOWED_ORIGINS = [
-  // isi dengan origin yang diperbolehkan akses API
+  "http://localhost:3000",
+  "http://fikrah.sarbeh.com",
+  "https://fikrah.sarbeh.com",
 ];
 const PORT = 8000;
 

@@ -11,7 +11,7 @@ API ini menyediakan dua endpoint utama:
 
 1. Instal Deno dari https://deno.land/
 2. Clone repo ini.
-3. Jalankan `deno run --allow-net --allow-read --allow-write app.ts`.
+3. Jalankan `deno run --config deno.json --allow-all server.ts`.
 
 ## Modul yang Digunakan
 - (OAK middleware)[https://deno.land/x/oak@v12.6.1/mod.ts]
